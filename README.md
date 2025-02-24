@@ -1,6 +1,17 @@
+<img src="https://img.shields.io/badge/Language-python_3.x-crimson"> <img src="https://img.shields.io/badge/version-1.0-blue"> <img src="https://img.shields.io/badge/platform-linux-ffb703"> <img src="https://img.shields.io/badge/platform-windows-success"> <img src="https://img.shields.io/badge/platform-macOS-silver">
+
+
 # Al-Hadba University Application
 
-This application is designed to provide students of Al-Hadba University with easy access to their information, exam results, and login management.
+### Al-Hadba University Student Companion
+
+In the digital age, access to academic information should be seamless and readily available. This project emerged from a personal endeavor to bridge a gap for Al-Hadba University students who, like myself, sought a more convenient way to interact with their university data. Recognizing the absence of an official desktop application, and finding the mobile-centric approach somewhat limiting, I embarked on creating this student companion.
+
+This application is a labor of independent development, crafted with the aim of providing a practical tool for fellow students. It's designed to offer a familiar desktop experience, allowing for easy access to essential information such as student profiles and exam results. Built with cross-platform compatibility in mind, it strives to serve as a reliable resource for students across Windows, Linux, and macOS environments.
+
+It's important to note that this is not an official university-endorsed application. Rather, it's a project born out of a desire to enhance the student experience. As such, it's maintained and updated independently. While every effort has been made to ensure accuracy and reliability, users should exercise discretion and verify critical information through official university channels.
+
+This project is open-source, inviting contributions and feedback from the community. It's a testament to the power of individual initiative and the spirit of collective improvement. By sharing this tool, I hope to contribute to a more accessible and efficient academic journey for Al-Hadba University students.
 
 ## Features
 
@@ -8,17 +19,23 @@ This application is designed to provide students of Al-Hadba University with eas
 * **User Information Display**: Displays student information in a structured table.
 * **Exam Results**: Provides access to mid-term and final-term exam results.
 * **Logout Functionality**: Safely removes stored login credentials.
-* **Error Handling**: Robust error handling for network issues and invalid login attempts.
-* **Bidi Text Rendering**: Supports right-to-left languages using `awesometkinter.bidirender`.
-
-* **`assets/images`**: Contains image files used in the application.
 * **`data/config.json`**: Stores user login credentials.
 * **`requirements.txt`**: Lists the Python packages required to run the application.
-* **`src/Al-Hadba_University_app.py`**: Contains the main application code.
 
 ## Installation
 
-1.  **Install dependencies:**
+1. **Install Python**
+
+   [Read more](https://www.python.org/)
+
+3.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/moayad-star/Al-Hadba_University.git
+    cd Al-Hadba_University
+    ```
+
+4.  **Install dependencies:**
 
     ```bash
     pip install -r requirements.txt
@@ -38,6 +55,7 @@ This application is designed to provide students of Al-Hadba University with eas
 
 ## Dependencies
 
+* `python 3.x`
 * `requests`
 * `mechanicalsoup`
 * `tkinter`
