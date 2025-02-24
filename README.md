@@ -67,4 +67,6 @@ Contributions are welcome! Please feel free to submit a pull request.
 
 ## License
 
+<img src="https://www.gnu.org/graphics/gplv3-127x51.png">
+
 Read more about [LICENSE](LICENSE)
