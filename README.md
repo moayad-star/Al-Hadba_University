@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/Language-python_3.x-crimson"> <img src="https://img.shields.io/badge/version-1.0-blue"> <img src="https://img.shields.io/badge/platform-linux-ffb703"> <img src="https://img.shields.io/badge/platform-windows-success"> <img src="https://img.shields.io/badge/platform-macOS-silver">
+<img src="https://img.shields.io/badge/Language-python_3.x-crimson"> <img src="https://img.shields.io/badge/version-1.0-blue"> <img src="https://img.shields.io/badge/license-GPLv3-red"> <img src="https://img.shields.io/badge/Source-open-blue"> <img src="https://img.shields.io/badge/platform-linux-ffb703"> <img src="https://img.shields.io/badge/platform-windows-success"> <img src="https://img.shields.io/badge/platform-macOS-silver">
 
 
 # Al-Hadba University of Iraq Application
