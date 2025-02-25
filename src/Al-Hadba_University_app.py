@@ -1,4 +1,4 @@
-from os import remove
+from os import remove, path
 from json import load, dump
 import requests
 from tkinter import *
@@ -12,8 +12,9 @@ class Al_Hadba():
     def __init__(self):
         self.__mail = None
         self.__passwd = None
-        self.__config_path = "../data/config.json"
-        self.__icon_path = "../assets/images/icon.png"
+        self.__config_path = path.join(path.dirname(path.abspath(__file__)), "../config/config.json")
+        self.__icon_path = path.join(path.dirname(path.abspath(__file__)), "../assets/images/icon.png")
+        self.__welcome_image = path.join(path.dirname(path.abspath(__file__)), "../assets/images/welcome_image.png")
         self.__browser = None
         self.__response = None
         self.__login_page = None
@@ -42,7 +43,7 @@ class Al_Hadba():
         self.__login_page.iconphoto(True, icon)
 
         # right side of page
-        image = PhotoImage(file="../assets/images/welcome_image.png")
+        image = PhotoImage(file=self.__welcome_image)
         image_label = Label(self.__login_page, image=image)
         image_label.pack(side="right", fill="y")
 
