@@ -31,13 +31,13 @@ This project is open-source, inviting contributions and feedback from the commun
 3.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/moayad-star/Al-Hadba_University.git
-    cd Al-Hadba_University
+    git clone https://github.com/moayad-star/Al-Hadba_university.git
     ```
 
 4.  **Install dependencies:**
 
     ```bash
+    cd Al-Hadba_university
     pip install -r requirements.txt
     ```
 
@@ -46,7 +46,6 @@ This project is open-source, inviting contributions and feedback from the commun
 1.  **Run the application:**
 
     ```bash
-    cd Al-Hadba_University/src/
     python3 Al-Hadba_University_app.py
     ```
 
@@ -60,6 +59,7 @@ This project is open-source, inviting contributions and feedback from the commun
 * `mechanicalsoup`
 * `tkinter`
 * `awesometkinter`
+* `playsound`
 
 ## Contributing
 
