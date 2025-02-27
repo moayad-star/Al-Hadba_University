@@ -13,9 +13,10 @@ class Al_Hadba():
     def __init__(self):
         self.__email = None
         self.__passwd = None
-        self.__config_path = path.join(path.dirname(path.abspath(__file__)),  "config/config.json")
+        self.__config_path = path.join(path.dirname(path.abspath(__file__)), "config/config.json")
         self.__icon_path = path.join(path.dirname(path.abspath(__file__)), "assets/images/icon.png")
-        self.__startup_sound = path.join(path.dirname(path.abspath(__file__)),  "assets/sounds/startup.m4a")
+        self.__startup_sound = path.join(path.dirname(path.abspath(__file__)), "assets/sounds/startup.m4a")
+        self.__welcome_image_path = path.join(path.dirname(path.abspath(__file__)), "assets/images/welcome_image.png")
         self.__browser = None
         self.__response = None
         self.__login_page = None
@@ -45,7 +46,7 @@ class Al_Hadba():
         self.__login_page.iconphoto(True, icon)
 
         # right side of page
-        image = PhotoImage(file="assets/images/welcome_image.png")
+        image = PhotoImage(file=self.__welcome_image_path)
         image_label = Label(self.__login_page, image=image)
         image_label.pack(side="right", fill="y")
 
